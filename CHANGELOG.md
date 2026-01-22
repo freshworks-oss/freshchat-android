@@ -1,3 +1,222 @@
+x### 6.4.8 (2026-01-21)
+* Bug fixes for null pointer exceptions when bundle is null
+
+### 6.4.7 (2025-12-04)
+* updated the ProGuard rules to fix issues with package issues
+
+### 6.4.6 (2025-12-03)
+* Fixed an account migration failure in the deactive state
+
+### 6.4.5 (2025-08-12)
+* Handled statusbar color in Android 15 gracefully.
+
+### 6.4.4 (2025-06-27)
+* Fixed an ANR issue while inserting a message.
+
+### 6.4.3 (2025-06-19)
+
+### Bug Fixes:
+* Fixed an issue where a bot could fail to trigger in a conversation.
+
+### 6.4.2 (2025-04-25)
+
+### Bug Fixes:
+* Fixed an issue where HTML tags appeared as plain text in chats.
+
+### 6.4.1 (2025-04-16)
+
+### Bug Fixes:
+* Fixed an issue where article vote buttons were swapped when opened via bot.
+
+### 6.4.0 (2025-03-24)
+
+### Bug Fixes:
+* Fixed a CursorIndexOutOfBoundsException observed in logs.
+* Fixed a crash occurring during SDK initialization.
+* Fixed an issue where the FAQ category list screen remained stuck in an infinite loading state.
+
+### 6.3.9 (2025-03-06)
+
+### Bug Fixes:
+* Fixed a memory leak in ConversationDetailActivity
+* Fixed an issue with edge-to-edge displays on Android 15 devices.
+
+### 6.3.8 (2025-02-20)
+
+### Bug Fixes:
+* Fixed an issue where the chat auto-scrolled when carousels were visible.
+
+### Build Changes
+* Upgraded targetSDKVersion to 35.
+
+### 6.3.7 (2025-02-17)
+
+### Bug Fixes:
+* Fixed an crash during scrolling on the Conversation Detail Screen.
+
+### 6.3.6 (2025-02-03)
+
+### Bug Fixes:
+* Fixed an issue where the infinite loader appeared when the bot feedback button was accidentally clicked multiple times on the Conversation Detail Screen.
+
+### 6.3.5 (2025-01-29)
+
+### Bug Fixes:
+* Fixed an issue in Android 15 where the UI did not respect system insets.
+
+### 6.3.4 (2025-01-23)
+
+### Bug Fixes:
+* Fixed an issue where FAQ detail screen not showing the vote button for non-scrollable pages.
+
+### 6.3.3 (2024-12-19)
+
+### Bug Fixes:
+* Fixed an issue where chat screen is not scrolling if carousel is present in the screen.
+
+### 6.3.2 (2024-12-03)
+
+### Feature:
+* Exposed an `FCEventAgentProfileClick` event to retrieve agent details upon clicking the agent profile.
+* Added a public API to set and get the agent profile click redirection URI.
+
+### Bug Fixes:
+* Fixed an issue where the chat failed to scroll to the latest message after multiple carousel items were selected.
+* Fixed an issue where the image caption was not removed after sending an image message.
+
+### 6.3.1 (2024-10-21)
+* Fixed an issue where an extra space appeared in the carousel card of user messages.
+* Fixed an issue with carousel card selection in specific scenarios.
+
+### 6.3.0 (2024-10-01)
+* Fixed an issue where links without descriptions were not working in the Bot Article flow.
+* Fixed an issue where quick actions were not hidden immediately after a conversation was resolved.
+* Fixed an issue where anonymous implementations of `FreshchatWebListener` were getting garbage collected after a locale change.
+* Fixed an issue where the country code was not retained in the view.
+* Fixed an issue where images captured with the camera were rotated 90 degrees to the left on some devices.
+* Fixed an issue where the file name and size were not displayed for images taken via the camera.
+* Fixed an issue with hyperlink breakage.
+
+### Enhancements:
+* Removed the character count limitation for setting user properties.
+
+## 6.2.9(2024-08-23)
+
+### Bug Fixes:
+* Fix for Customer chat history not getting restored above a few messages.
+* Fix for FAQ article message is not taking up the screen space and looks squished/Compressed.
+
+## 6.2.8(2024-07-27)
+
+### Bug Fixes:
+* Fix for Window Manager Bad Token Exception when attaching pictures.
+* Fix for issue with custom link handler not working in conversation.
+
+### Enhancements:
+* Updated SDK to target Android 14 to comply with Google Play Store policies.
+
+## 6.2.7(2024-07-12)
+
+### Bug fix :
+* Fix for incorrect Preview messages being shown in Channels list
+* Fix for failing read receipts in conversations.
+
+## 6.2.6(2024-07-02)
+
+### Bug fix :
+* Fix for the SDK text input field type being set up for OTP autofilling by default.
+* Fix for hyperlinks in HTML tags not redirecting to a web page displayed on carousels.
+* Fix for the possibility of HTML injection through the SDK's chat input field.
+* Fix for the alignment issue in the categories listing screen.
+* Fix for the chat reply window starting with a lowercase letter.
+* Fix for the agent response expectation time taking a few seconds to update after a locale change.
+
+## 6.2.5(2024-06-11)
+
+### Bug fix :
+* Fix for bugs related to changing manual time from device
+
+## 6.2.4(2024-06-03)
+
+### Bug fix : 
+* Fix for Search results not filtered by tags.
+* Fix for links in Description are not redirected to the respected page.
+* Fix for HTML tags not allowing the hyperlinks to redirect to a web-page displayed on carousels.
+* Fix for OTP SMS not received for given mobile number while initiating the OTP from the Android SDK.
+* Fix for Faq not opening with correct filter tags on initialisation time.
+* Fix for Issues with bullet points displaying in Mobile SDK.
+
+### Build Changes
+* Upgraded min SDK to 21
+
+## 6.2.3(2024-05-30)
+
+### Bug fix :
+* Fix for the Crash on updating to SDK v6.2.0(or above) from v5.9.6 (or below)
+
+## 6.2.2(2024-05-13)
+
+### Bug fix :
+* Fix for the faq search based on the tag filter by category or article
+
+## 6.2.1(2024-04-26)
+
+### Bug fix :
+* Fix for the unable to load topic list page due Canvas: trying to draw too large bitmap issue
+* Fix for the issue in navigating to sections in FAQs page.
+* Fix for the click on search from virtual keyboard and virtual keyboard is not closing in the FAQs page.
+
+## 6.2.0(2024-03-14)
+
+### Feature :
+* Added support for Parallel conversations.
+
+## 6.1.5(2024-02-13)
+* Fix for Agent first name display issue when bot conversations are assigned to an agent.
+
+## 6.1.2(2024-01-11)
+
+### Bug fix :
+* Fix for potential ANR during app update.[CHANGELOG.md](..%2Fdist%2FCHANGELOG.md)
+* Fix for bot not retriggering after resolving bot conversations.
+* Fix for a crash happening while loading conversations.
+* Fix for agent name is not updated when any bot conversations are assigned to any agent.
+ 
+## 6.1.1(2024-1-5) 
+
+### Bug fix :
+* Fix to enable text input editor when using Freshchat Public APIs to send messages on behalf of an agent/bot.
+
+## 6.1.0(2023-11-17)
+
+### Feature :
+* We are adding support for multi-select Carousel as a new input type for your customers. Customers will now be able to pick and choose multiple choices that appears as a series of options with a horizontal scroll (carousel) on the screen.
+
+### Bug Fix :
+* Fix for hyper links not scrolling to the desired index in FAQ webview in omni account
+* Fix for HTML code is being displayed in carousels primary & secondary buttons
+* Fix for conversation is not loading for Android Gradle Plugin 8.0 consumers
+
+## 6.0.0(2023-10-09)
+
+### Enhancement :
+* Performance improvement on loading messages
+
+## 5.9.6(2023-10-06)
+
+### Bug fix :
+* Fix for bot variables not being set for resolved conversations.
+
+## 5.9.5(2023-09-15)
+
+### Bug fix :
+* Fix for a crash which occurs during certain chat flows.
+
+## 5.9.3(2023-08-28)
+
+### Enhancement :
+* Handle disabling of reply editor when bot response is pending.
+
 ## 5.9.2(2023-07-08)
 
 ### Feature :
