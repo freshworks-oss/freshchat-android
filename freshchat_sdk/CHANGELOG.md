@@ -1,3 +1,6 @@
+### 6.5.1 (2026-02-11)
+* Flutter testing for Edittext
+
 ### 6.4.8 (2026-01-21)
 * Bug fixes for null pointer exceptions when bundle is null
 
