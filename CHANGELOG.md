@@ -1,3 +1,8 @@
+### 6.5.0 (2026-02-13)
+### Bug Fixes:
+* Fixed - Edittext in conversation details screen to support multiline
+* Fixed - email-id is not clickable in welcome message
+
 ### 6.4.9 (2026-01-30)
 * Hotfix for crashed Backlog entries due to updated ProGuard rules in 6.4.7
 
