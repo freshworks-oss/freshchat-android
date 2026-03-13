@@ -1,3 +1,7 @@
+### 6.5.1 (2026-03-13)
+### Feature:
+* Included domain for new data centre
+
 ### 6.5.0 (2026-02-13)
 ### Bug Fixes:
 * Fixed - Edittext in conversation details screen to support multiline
