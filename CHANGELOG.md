@@ -1,6 +1,6 @@
 ### 6.5.1 (2026-03-13)
 ### Feature:
-* Included domain for new data centre
+* Added support for the new EUN data center to ensure improved infrastructure compatibility and better service availability.
 
 ### 6.5.0 (2026-02-13)
 ### Bug Fixes:
