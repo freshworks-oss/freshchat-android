@@ -1,3 +1,8 @@
+### 6.5.2 (2026-03-23)
+### Bug Fixes:
+* Fixed Deeplink issue with parallel conversations
+* Fixed - FAQ & Messages Content Overlapping Toolbar ( Device specific like Google pixel )
+
 ### 6.5.1 (2026-03-13)
 ### Feature:
 * Added support for the new EUN data center to ensure improved infrastructure compatibility and better service availability.
