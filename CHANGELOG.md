@@ -1,3 +1,7 @@
+### 6.5.3 (2026-03-31)
+### Bug Fixes:
+* Fixed a corner case where a wrong conversation ID could result in a broken Post agent resolution flow.
+
 ### 6.5.2 (2026-03-23)
 ### Bug Fixes:
 * Fixed Deeplink issue with parallel conversations
@@ -762,8 +766,8 @@
 * Support for notification channels in Oreo
 * Support for customising notification tones
 * RTL Improvements
-  * Prefer app locale over device locale
-  * Display unread count in user locale
+    * Prefer app locale over device locale
+    * Display unread count in user locale
 
 ### Bug Fixes
 * Fix notification token not being set for a restored user
