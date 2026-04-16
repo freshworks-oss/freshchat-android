@@ -1,3 +1,9 @@
+### 6.5.4 (2026-04-16)
+### Bug Fixes:
+* Included Custom styles with state_focused support
+* Fixed re-occurring toolbar overlapping issue
+* Fixed Bot-retriggering in the middle of an agent conversation
+
 ### 6.5.3 (2026-03-31)
 ### Bug Fixes:
 * Fixed a corner case where a wrong conversation ID could result in a broken Post agent resolution flow.
