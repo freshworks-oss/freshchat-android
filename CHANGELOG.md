@@ -1,4 +1,5 @@
 ### 0.5.2 (2026-05-13)
+
 ### Feature :
 * Adding release automation
 ### Bug Fix :
