@@ -51,7 +51,7 @@ jobs:
         run: |
           RELEASE_NOTES=$(awk '
             /^### [0-9]/ && found { exit }
-            /^### [0-9]/ { found=1; print; next }
+            /^### [0-9]/ { found=1; next }
             found { print }
           ' CHANGELOG.md)
 
