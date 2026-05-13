@@ -20,7 +20,7 @@ on:
 jobs:
   public_release:
     name: Public Repo Release
-    runs-on: mobile
+    runs-on: mobile-freshworks
 
     env:
       VERSION_NAME: ${{ github.event.inputs.version_name }}
