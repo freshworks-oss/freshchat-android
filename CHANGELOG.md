@@ -1,6 +1,10 @@
-### 0.5.1 (2026-05-13)
-### Feature:
+### 0.5.2 (2026-05-13)
+
+### Feature :
 * Adding release automation
+### Bug Fix :
+* Including few more changes
+* Including couple more changes
 
 ### 6.5.4 (2026-04-16)
 ### Bug Fixes:
