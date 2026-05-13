@@ -1,7 +1,3 @@
-### 0.5.1 (2026-05-13)
-### Feature:
-* Adding release automation
-
 ### 6.5.4 (2026-04-16)
 ### Bug Fixes:
 * Included Custom styles with state_focused support

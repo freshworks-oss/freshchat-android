@@ -50,8 +50,8 @@ jobs:
         id: notes
         run: |
           RELEASE_NOTES=$(awk '
-            /^### / && found { exit }
-            /^### / { found=1; print; next }
+            /^### [0-9]/ && found { exit }
+            /^### [0-9]/ { found=1; print; next }
             found { print }
           ' CHANGELOG.md)
 
@@ -108,15 +108,11 @@ jobs:
       # ─────────────────────────────────────────────
       - name: Create GitHub Release (public repo)
         run: |
-          IS_DRY_RUN="${{ inputs.dry_run }}"
           RELEASE_NOTES="${{ steps.notes.outputs.content }}"
 
-          if [ "$IS_DRY_RUN" = "true" ]; then
-            DRAFT="true"
-            echo "Dry-run mode: creating a DRAFT release."
-          else
-            DRAFT="false"
-          fi
+          # TODO: revert DRAFT to dynamic after testing
+          DRAFT="true"
+          echo "Draft mode enabled for testing."
 
           curl -s \
             -X POST \
