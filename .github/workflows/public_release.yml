@@ -34,7 +34,7 @@ jobs:
       - name: Checkout public repo (main)
         uses: actions/checkout@v3
         with:
-          ref: main
+          ref: test_merge
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -75,13 +75,13 @@ jobs:
         run: |
           git merge "origin/$CANARY_BRANCH" \
             --no-ff \
-            -m "Merge $CANARY_BRANCH into main for release $VERSION_NAME"
-          echo "Canary branch $CANARY_BRANCH merged into main."
+            -m "Merge $CANARY_BRANCH into test_merge for release $VERSION_NAME"
+          echo "Canary branch $CANARY_BRANCH merged into test_merge."
 
       - name: Push main
         if: ${{ inputs.dry_run != true }}
         run: |
-          git push origin main
+          git push origin test_merge
           echo "main pushed."
 
       # ─────────────────────────────────────────────
