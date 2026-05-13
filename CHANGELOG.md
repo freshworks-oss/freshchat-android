@@ -1,7 +1,3 @@
-### 0.5.1 (2026-05-13)
-### Feature:
-* Adding release automation
-
 ### 6.5.4 (2026-04-16)
 ### Bug Fixes:
 * Included Custom styles with state_focused support
@@ -14,8 +10,8 @@
 
 ### 6.5.2 (2026-03-23)
 ### Bug Fixes:
-* Fixed Deeplink related issue with parallel conversations
-* Fixed FAQ & Messages Content Overlapping Toolbar ( Device specific like Google pixel )
+* Fixed Deeplink issue with parallel conversations
+* Fixed - FAQ & Messages Content Overlapping Toolbar ( Device specific like Google pixel )
 
 ### 6.5.1 (2026-03-13)
 ### Feature:
@@ -169,7 +165,7 @@
 
 ## 6.2.4(2024-06-03)
 
-### Bug fix : 
+### Bug fix :
 * Fix for Search results not filtered by tags.
 * Fix for links in Description are not redirected to the respected page.
 * Fix for HTML tags not allowing the hyperlinks to redirect to a web-page displayed on carousels.
@@ -212,8 +208,8 @@
 * Fix for bot not retriggering after resolving bot conversations.
 * Fix for a crash happening while loading conversations.
 * Fix for agent name is not updated when any bot conversations are assigned to any agent.
- 
-## 6.1.1(2024-1-5) 
+
+## 6.1.1(2024-1-5)
 
 ### Bug fix :
 * Fix to enable text input editor when using Freshchat Public APIs to send messages on behalf of an agent/bot.
@@ -516,7 +512,7 @@
 * Performance improvements in restoring a user
 
 ### Bug Fix
-* Remove cache file from external storage 
+* Remove cache file from external storage
 
 ## 3.6.2(2020-07-3)
 
@@ -698,7 +694,7 @@
 
 ### Enhancements
 * Support for using alternate image loader libraries - via [Freshchat.setImageLoader()](https://support.freshchat.com/support/solutions/articles/229319-freshchat-android-sdk-integration-steps#custom-image-loader) - SDK defaults to including Picasso 2.5.2
-* In Android N+, support for auto retry messages on chat screen based on connectivity changes 
+* In Android N+, support for auto retry messages on chat screen based on connectivity changes
 
 ### Bug Fixes
 * Fix crash while transforming downloaded image into circular shape
