@@ -4,7 +4,6 @@
 
 ### Enhancement :
 * Logs added to debug bot related issues
-skip notes
 
 ### 6.5.5 (2026-05-15)
 
