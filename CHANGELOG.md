@@ -1,16 +1,5 @@
 ### 6.5.6 (2026-05-18)
 
-### 6.5.6 (2026-05-18)
-
-### Enhancement :
-* Logs added to debug bot related issues
-skip notes
-
-### 6.5.6 (2026-05-18)
-
-### Enhancement :
-* Logs added to debug bot related issues
-
 ### 6.5.5 (2026-05-15)
 
 ### Enhancement :
