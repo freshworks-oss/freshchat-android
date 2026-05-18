@@ -1,3 +1,5 @@
+### 6.5.6 (2026-05-18)
+
 ### 6.5.5 (2026-05-15)
 
 ### Enhancement :
@@ -834,5 +836,3 @@ Fix intermittent DB cursor leak
 
 ## 1.0.0 (2017-09-18)
 * Freshchat Android SDK first version
-
-
