@@ -1,8 +1,4 @@
 ### 6.5.7 (2026-06-12)
-* Replace deprecated edge-to-edge APIs to clear Play Console warning
-### Bug Fix :
-* Replace deprecated edge-to-edge APIs to clear Play Console warning
-
 ### Bug Fix :
 * Replace deprecated edge-to-edge APIs to clear Play Console warning
 
