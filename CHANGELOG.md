@@ -1,4 +1,11 @@
+### 6.5.7 (2026-06-12)
+* Replace deprecated edge-to-edge APIs to clear Play Console warning
+### Bug Fix :
+* Replace deprecated edge-to-edge APIs to clear Play Console warning
+
 ### 6.5.6 (2026-05-19)
+### Enhancement :
+* Logs added to debug bot related issues
 
 ### 6.5.5 (2026-05-15)
 
@@ -836,3 +843,5 @@ Fix intermittent DB cursor leak
 
 ## 1.0.0 (2017-09-18)
 * Freshchat Android SDK first version
+
+
