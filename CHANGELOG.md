@@ -1,7 +1,10 @@
+### 6.5.8 (2026-07-03)
+### Bug Fix :
+* Resolved an issue causing occasional crashes during Freshchat deep link handling on select Android devices.
+
 ### 6.5.7 (2026-06-12)
 ### Bug Fix :
 * Replace deprecated edge-to-edge APIs to clear Play Console warning
-
 
 ### 6.5.6 (2026-05-19)
 ### Enhancement :
@@ -284,7 +287,6 @@
 
 ### Feature
 * We are adding support for Phone number and OTP as a new input type for your customers. Customers will now be able to enter their phone numbers with country code to generate an OTP which is then entered by user and is accepted by the SDK to process user information.
-
 
 ## 5.7.0(2023-06-15)
 
@@ -843,5 +845,4 @@ Fix intermittent DB cursor leak
 
 ## 1.0.0 (2017-09-18)
 * Freshchat Android SDK first version
-
 
