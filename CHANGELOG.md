@@ -1,3 +1,7 @@
+### 6.5.9 (2026-07-27)
+### Bug Fix :
+* Fixed the message composer showing a numeric keyboard for free-text bot replies after an earlier step in the same conversation had requested a phone/number/email/OTP input.
+
 ### 6.5.8 (2026-07-03)
 ### Bug Fix :
 * Resolved an issue causing occasional crashes during Freshchat deep link handling on select Android devices.
