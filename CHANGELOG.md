@@ -1,3 +1,8 @@
+### 6.5.10 (2026-07-29)
+### Bug Fix :
+* Fixed an Android-only regression (introduced in 6.4.2) where HTML markup typed by an end user in the chat input rendered as a live, clickable link instead of plain text — reopening a previously fixed HTML injection issue. Free-typed message text is now escaped exactly once (on send) and decoded exactly once (on render), while trusted, business-configured content (quick-reply/flow-layout button labels, date/time picker selections) continues to render its intended HTML formatting.
+* Fixed the same HTML injection issue in the CSAT/bot free-text comment feedback flow, which shared the same untrusted input source but was not covered by the original fix.
+
 ### 6.5.9 (2026-07-27)
 ### Bug Fix :
 * Fixed the message composer showing a numeric keyboard for free-text bot replies after an earlier step in the same conversation had requested a phone/number/email/OTP input.
