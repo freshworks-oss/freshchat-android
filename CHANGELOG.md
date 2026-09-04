@@ -1,3 +1,7 @@
+### 6.5.12 (2026-09-04)
+### Bug Fix :
+* Hardened bot flow handling so a user's first reply to a bot reliably engages the bot, including on devices with an inaccurate system clock and when the reply is sent after a period without connectivity.
+
 ### 6.5.11 (2026-08-28)
 ### Enhancement :
 * Limited CSAT free text input to 200 chars
