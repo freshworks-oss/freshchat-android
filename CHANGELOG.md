@@ -1,3 +1,7 @@
+### 6.5.13 (2026-09-09)
+### Bug Fix :
+* Fixed an issue where the bot's welcome message did not reappear the first time a user returned to a chat that a bot had ended, requiring them to leave and re-enter the chat a second time.
+
 ### 6.5.12 (2026-09-04)
 ### Bug Fix :
 * Hardened bot flow handling so a user's first reply to a bot reliably engages the bot, including on devices with an inaccurate system clock and when the reply is sent after a period without connectivity.
