@@ -1,3 +1,7 @@
+### 6.5.14 (2026-09-15)
+### Enhancement :
+* Bot / AI Agent steps that accept both free text and a file attachment now show the normal reply editor along with the Attach button, instead of the attachment-only input.
+
 ### 6.5.13 (2026-09-09)
 ### Bug Fix :
 * Fixed an issue where the bot's welcome message did not reappear the first time a user returned to a chat that a bot had ended, requiring them to leave and re-enter the chat a second time.
