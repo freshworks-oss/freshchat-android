@@ -1,3 +1,7 @@
+### 6.5.15 (2026-09-28)
+### Bug Fix :
+* Fixed links in chat messages being only partially clickable on some devices when the URL contained numbers or email addresses, such as Google Maps links with coordinates.
+
 ### 6.5.14 (2026-09-15)
 ### Enhancement :
 * Bot / AI Agent steps that accept both free text and a file attachment now show the normal reply editor along with the Attach button, instead of the attachment-only input.
